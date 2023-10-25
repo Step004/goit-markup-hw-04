@@ -1,0 +1,365 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFF;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: #404bbf;
+}
+
+.webstudio {
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.accent {
+    color: var(--IRIS, #2E2F42);
+}
+
+.accent-f {
+    color: var(--IRIS, #F4F4FD);
+}
+
+.header-nav-list-item {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.header-address-list-item-a {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.header-address-list-item-a:hover,
+.header-address-list-item-a:focus {
+    counter-reset: #404bbf;
+}
+
+.logo-h {
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Roboto;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    max-width: 496px;
+    margin: 0 auto;
+}
+.logo {
+    background: var(--NAVY-BLUE, #2E2F42);
+    padding: 188px 0;
+    
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4D5AE5;
+    cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto; 
+    display: block;
+    margin-top: 48px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+}
+
+.main-list-logo {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.main-list-p {
+    color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.section-two {
+    background-color: #F4F4FD
+}
+
+.logo-our-team {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.section-two-list-item {
+    background-color: #FFFFFF;
+}
+
+.section-two-list-item-name {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.section-two-list-item-p {
+    color: var(--SLATE, #434455);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.section-three-list-item-name {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.section-three-list-item-p {
+    color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.footer {
+    background: var(--NAVY-BLUE, #2E2F42);
+    font-family: "Raleway", sans-serif;
+}
+
+.webstudio-f {
+    color: var(--NAVY-BLUE, #4d5ae5);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.footer-p {
+    color: var(--CLOUD, #F4F4FD);
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+/* ************************Home Work 3*********************** */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.container_header {
+    display: flex;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.webstudio {
+    margin-right: 76px;
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-nav-list-item, .header-address-list-item {
+    padding: 24px 0;
+    display: block;
+}
+
+.header-address-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-address {
+    margin-left: 332px;
+}
+
+.section-one {
+    padding: 120px 0;
+}
+
+.main-list {
+    display: flex;
+    gap: 24px;
+}
+
+.main-list-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.main-list-logo {
+    margin-bottom: 8px;
+}
+
+.section-two {
+    padding: 120px 0;
+}
+
+.logo-our-team {
+    margin-bottom: 72px;
+}
+
+.section-two-list {
+    display: flex;
+    gap: 24px;
+}
+
+.section-two-list-item {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.container-section-two-list-item {
+    padding: 32px 0;
+}
+
+.section-two-list-item-name {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.section-two-list-item-p {
+    text-align: center;
+
+}
+
+.section-three {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.logo-our-team {
+    margin-bottom: 72px;
+}
+
+.section-three-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.section-three-list-item {
+    width: calc((100% - 48px) / 3);
+}
+
+.container-section-three-list-item {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.section-three-list-item-name {
+    margin-bottom: 8px;
+}
+
+.footer {
+    padding: 100px 0;
+}
+
+.webstudio-f {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-p {
+    max-width: 264px;
+}
