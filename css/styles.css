@@ -472,7 +472,7 @@ img {
 
 }
 
-.footer-icon-list-item {
+.footer-icon-list-a {
     width: 40px;
     height: 40px;
 }
@@ -505,8 +505,8 @@ img {
 
 .footer-icon-list-a:hover,
 .footer-icon-list-a:focus {
-    fill: #31D0AA;
-    background-color: #404bbf;
+    fill: #31d0aa;
+    background-color: #31d0aa;;
 }
 
 .icon-list-a:hover,
@@ -543,13 +543,14 @@ img {
 .container-footer {
     display: flex;
     align-items: baseline;
-    gap: 120px;
+    
 }
 
-.footer-logotipe {
+.footer-lohotipe{
     margin-right: 120px;
-
 }
 .svg-icon{
-    fill:#f4f4fd;
+    /* fill:#f4f4fd; */
+    width: 40px;
+    height: 40px;
 }
