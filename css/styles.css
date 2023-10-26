@@ -69,7 +69,7 @@ a:focus {
 } */
 
 
-.one:active::after {
+.one::after {
     display: block;
     content: "";
     position: absolute;
