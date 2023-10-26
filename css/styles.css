@@ -50,7 +50,7 @@ a:focus {
 }
 
 
-.header-nav-list-item:active::after {
+/* .header-nav-list-item:active::after {
     display: block;
     content: '';
     width: 48px;
@@ -61,7 +61,7 @@ a:focus {
     margin-right: auto;
     position: absolute;
     transform: translate(0, 20px);
-}
+} */
 
 /*  
 .header-nav-list-item:active {
@@ -69,13 +69,14 @@ a:focus {
 } */
 
 
-.one::after {
+.one:active::after {
     display: block;
     content: "";
     position: absolute;
     left: 0;
     bottom: -1px;
     height: 4px;
+    width: 48px;
     background-color: #404BBF;
     border-radius: 2px;
     color: #404bbf;
@@ -550,7 +551,7 @@ img {
     margin-right: 120px;
 }
 .svg-icon{
-    /* fill:#f4f4fd; */
+    fill:#f4f4fd;
     width: 40px;
     height: 40px;
 }
